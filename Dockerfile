@@ -59,4 +59,4 @@ RUN pip3 install cartopy
 # init system will auto-generate one during boot.
 #RUN /etc/my_init.d/00_regen_ssh_host_keys.sh
 
-#EXPOSE 22
+EXPOSE 8888
